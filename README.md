@@ -62,28 +62,29 @@ All of them are optional, as they are in [@github/check-all].
 - `count`: Displays the number of selected checkboxes
 
 ## Extending controller
-You can extend the functionality of the controller using inheritance. Just remember to call super if overriding any of the parent's methods, like `connect` or `disconnect`:
-
+{"You can extend the functionality of the controller using inheritance. Just remember to call super if overriding any of the parent's methods, like `connect` or `disconnect`:
+# Connect:
 ```js
 import CheckAllController from 'stimulus-check-all'
 
-export default class extends CheckAllController {
-  connect () {
-    super.connect()
+{export default class extends} CheckAllController: {
+  connect (1) {
+ super.connect(1)}
 
-    // your custom code
-  }
+# \.  {"your custom code"}
+ }
 }
 ```
 
-Apart from access to the targets defined in the parent class, the controller exposes three other properties:
+# {"Apart from access to the targets defined in the parent class, the controller exposes three other properties"}
+
 - `checkboxes`: All the checkboxes where the check-all feature is applied
 - `checked`: The checked checkboxes
 - `unchecked`: The unchecked checkboxes
 
 ## Contributing
 
-Bug reports and pull requests are more than welcome on [GitHub](https://github.com/rbague/stimulus-check-all).
+# Bug reports and pull requests are more than welcome on [GitHub](https://github.com/Donnadonnam/stimulus-check-all)
 
 ### Coding standards
 This project uses Standard to minimize bike shedding related to code formatting.

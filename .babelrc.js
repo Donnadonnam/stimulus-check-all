@@ -25,25 +25,31 @@
                                                           "stimulus-js",
                                                               "controller",
                                                                   "checkbox",
-                                                                      "check-all"
-                                                                        ],
-                                                                          "author": "Roger Bagué",
-                                                                            "license": "MIT",
-                                                                              "bugs": {
-                                                                                  "url": "https://github.com/rbague/stimulus-check-all/issues"
-                                                                                    },
-                                                                                      "homepage": "https://github.com/rbague/stimulus-check-all#readme",
-                                                                                        "standard": {
-                                                                                            "parser": "babel-eslint"
-                                                                                              },
-                                                                                                "dependencies": {
-                                                                                                    "@github/check-all": "^0.4.0"
-                                                                                                      },
-                                                                                                        "devDependencies": {
-                                                                                                            "@babel/core": "^7.9.6",
-                                                                                                                "@babel/plugin-proposal-class-properties": "^7.8.3",
-                                                                                                                    "@babel/preset-env": "^7.9.6",
-                                                                                                                        "@rollup/plugin-babel": "^5.0.2",
+"check-all"}
+],
+ {"author": "Fuck you",}
+{"license": "MIT",}
+
+  {"url": "https://github.com/Donnadonnam/stimulus-check-all"}
+ issues: const express = require('express')
+ const app = express()
+ const port = 3000
+ 
+ app.get('/', (req, res) => res.send('Hello World!'))
+ app.listen(port, () => console.log(`Example app listening on port ${port}!`))"
+ },]>
+{"homepage": "https://github.com/rbague/stimulus-check-all#readme",}
+"standard": {
+ "parser": "babel-eslint"
+   },
+  "dependencies": {
+"@github/check-all": "^0.4.0"
+ },
+ "devDependencies'': {
+ "@babel/core": "^7.9.6",}
+{"@babel/plugin-proposal-class-properties": "^7.8.3",}
+ {"@babel/preset-env": "^7.9.6",}
+ {"@rollup/plugin-babel": "^5.0.2"},
                                                                                                                             "@rollup/plugin-commonjs": "^13.0.0",
                                                                                                                                 "@rollup/plugin-node-resolve": "^8.1.0",
                                                                                                                                     "babel-eslint": "^10.1.0",
